@@ -23,15 +23,13 @@ This mirrors how a scout might reason: first judge the player's technical qualit
 ```
 final-project/
 ├── Data/
-│   ├── raw/
-│   │   └── FC26_20250921.csv
-│   └── processed/
-│       └── clean_data.csv
+│   ├─── FC26_20250921.csv
+│   └─── clean_data.csv
 │
 ├── notebooks/
-│   ├── 01_cleaning_preprocessing.ipynb   # Data cleaning + feature engineering
-│   ├── 02_eda.ipynb                      # Exploratory data analysis & visualizations
-│   └── 03_model_training.ipynb           # Model training & evaluation
+│   ├── cleaning_preprocessing.ipynb   # Data cleaning + feature engineering
+│   ├── Visualization.ipynb            # Exploratory data analysis & visualizations
+│   └── model_training.ipynb           # Model training & evaluation
 │
 ├── models/
 │   ├── overall_model.pkl                 # Trained model: predicts Overall rating
@@ -39,8 +37,7 @@ final-project/
 │   ├── value_model.pkl                   # Trained model: predicts Market Value
 │   └── value_features.pkl                # Feature list for the Value model
 │
-├── app/
-│   └── app.py                            # Streamlit web application
+├── app.py                            # Streamlit web application
 │
 ├── requirements.txt
 └── README.md
