@@ -122,10 +122,11 @@ joblib==1.4.2
 | Member | Responsibility |
 |---|---|
 | [Ali Baher] | Data Cleaning & Preprocessing |
-| [Name] | Regression Modeling (Market Value) |
-| [Name] | Overall Rating Model & Feature Engineering |
-| [Name] | Streamlit App & Integration |
-| [Name] | Documentation & Presentation |
+| [Ahmed EZZ] | Visualization |
+| [Ahmed khaled] | Regression Modeling (Market Value) |
+| [Abdo Radwan] | Overall Rating Model & Feature Engineering |
+| [Ali Baher] | Streamlit App & Integration |
+| [Ali Baher] | Documentation & Presentation |
 
 ## 📎 Notes
 
