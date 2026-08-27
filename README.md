@@ -28,7 +28,7 @@ final-project/
 │
 ├── notebooks/
 │   ├── cleaning_preprocessing.ipynb   # Data cleaning + feature engineering
-│   ├── Visualization.ipynb            # Exploratory data analysis & visualizations
+│   ├── Visual.ipynb            # Exploratory data analysis & visualizations
 │   └── model_training.ipynb           # Model training & evaluation
 │
 ├── models/
@@ -59,7 +59,7 @@ final-project/
 
 ## 📈 Exploratory Data Analysis
 
-Key findings (see `02_eda.ipynb` for full visualizations):
+Key findings (see `Visual.ipynb` for full visualizations):
 - `value_eur` is heavily right-skewed → a `log1p` transform was applied before model training
 - `overall` and `potential` are the features most strongly correlated with market value
 - The relationship between `age` and `value_eur` is non-linear (value rises then falls with age)
